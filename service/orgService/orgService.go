@@ -1,11 +1,11 @@
 package orgService
 
 import (
-	"github.com/gin-gonic/gin"
-	"sauth/model/orgModel"
-	"sauth/db"
-	"sauth/util"
+	"Academic-Training-System/db"
+	"Academic-Training-System/model/orgModel"
+	"Academic-Training-System/util"
 	"database/sql"
+	"github.com/gin-gonic/gin"
 )
 
 func Find(ctx *gin.Context) ([]orgModel.Org, error) {

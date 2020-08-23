@@ -1,11 +1,11 @@
 package appService
 
 import (
-	"sauth/model/appModel"
-	"github.com/gin-gonic/gin"
-	"sauth/db"
-	"sauth/util"
+	"Academic-Training-System/db"
+	"Academic-Training-System/model/appModel"
+	"Academic-Training-System/util"
 	"database/sql"
+	"github.com/gin-gonic/gin"
 )
 
 func All() ([]appModel.Application, error) {

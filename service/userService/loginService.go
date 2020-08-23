@@ -1,10 +1,10 @@
 package userService
 
 import (
+	"Academic-Training-System/model/userModel"
+	"Academic-Training-System/util"
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"sauth/util"
-	"sauth/model/userModel"
 	"net/http"
 )
 

@@ -1,10 +1,10 @@
 package db
 
 import (
+	"Academic-Training-System/util"
+	"github.com/astaxie/beego/logs"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/go-xorm/xorm"
-	"github.com/astaxie/beego/logs"
-	"sauth/util"
 )
 
 var Engine *xorm.Engine

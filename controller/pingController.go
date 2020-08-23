@@ -1,8 +1,8 @@
 package controller
 
 import (
+	"Academic-Training-System/util"
 	"github.com/gin-gonic/gin"
-	"sauth/util"
 )
 
 func Ping(ctx *gin.Context) {

@@ -1,11 +1,11 @@
 package userService
 
 import (
-	"github.com/gin-gonic/gin"
-	"sauth/model/userModel"
-	"sauth/util"
-	"sauth/db"
+	"Academic-Training-System/db"
+	"Academic-Training-System/model/userModel"
+	"Academic-Training-System/util"
 	"database/sql"
+	"github.com/gin-gonic/gin"
 )
 
 // 保存用户

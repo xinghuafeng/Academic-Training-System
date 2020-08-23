@@ -1,10 +1,10 @@
 package roleFunctionService
 
 import (
+	"Academic-Training-System/db"
+	"Academic-Training-System/model/roleFunctionModel"
+	"Academic-Training-System/util"
 	"github.com/gin-gonic/gin"
-	"sauth/model/roleFunctionModel"
-	"sauth/util"
-	"sauth/db"
 )
 
 // 保存角色-功能

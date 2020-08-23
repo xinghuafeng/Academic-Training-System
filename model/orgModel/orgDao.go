@@ -1,7 +1,7 @@
 package orgModel
 
 import (
-	"sauth/db"
+	"Academic-Training-System/db"
 	"database/sql"
 )
 

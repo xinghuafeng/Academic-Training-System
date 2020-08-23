@@ -1,11 +1,11 @@
 package roleService
 
 import (
-	"github.com/gin-gonic/gin"
-	"sauth/model/roleModel"
-	"sauth/db"
-	"sauth/util"
+	"Academic-Training-System/db"
+	"Academic-Training-System/model/roleModel"
+	"Academic-Training-System/util"
 	"database/sql"
+	"github.com/gin-gonic/gin"
 )
 
 func All() ([]roleModel.Role, error) {

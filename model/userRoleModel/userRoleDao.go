@@ -1,6 +1,6 @@
 package userRoleModel
 
-import "sauth/db"
+import "Academic-Training-System/db"
 
 func FindUserRole(userId string) ([]map[string][]byte, error) {
 	sql := `SELECT

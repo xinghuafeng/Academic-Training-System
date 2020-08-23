@@ -1,10 +1,10 @@
 package functionService
 
 import (
-	"sauth/model/functionModel"
-	"sauth/db"
+	"Academic-Training-System/db"
+	"Academic-Training-System/model/functionModel"
+	"Academic-Training-System/util"
 	"github.com/gin-gonic/gin"
-	"sauth/util"
 )
 
 func All() ([]functionModel.Function, error) {

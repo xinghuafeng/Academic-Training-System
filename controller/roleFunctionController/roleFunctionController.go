@@ -1,8 +1,8 @@
 package roleFunctionController
 
 import (
+	"Academic-Training-System/service/roleFunctionService"
 	"github.com/gin-gonic/gin"
-	"sauth/service/roleFunctionService"
 )
 
 func Save(ctx *gin.Context) {

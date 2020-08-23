@@ -1,8 +1,8 @@
 package userModel
 
 import (
-	"sauth/db"
-	"sauth/util"
+	"Academic-Training-System/db"
+	"Academic-Training-System/util"
 	"database/sql"
 )
 

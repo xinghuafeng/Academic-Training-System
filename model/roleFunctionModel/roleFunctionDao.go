@@ -1,8 +1,8 @@
 package roleFunctionModel
 
 import (
+	"Academic-Training-System/db"
 	"database/sql"
-	"sauth/db"
 )
 
 /*

@@ -1,8 +1,8 @@
 package appService
 
 import (
-	"sauth/model/appModel"
-	"sauth/util"
+	"Academic-Training-System/model/appModel"
+	"Academic-Training-System/util"
 )
 
 func FindOptions() ([]map[string]interface{}, error) {

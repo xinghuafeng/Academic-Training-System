@@ -1,8 +1,8 @@
 package roleController
 
 import (
+	"Academic-Training-System/service/roleService"
 	"github.com/gin-gonic/gin"
-	"sauth/service/roleService"
 )
 
 func All(ctx *gin.Context) {
