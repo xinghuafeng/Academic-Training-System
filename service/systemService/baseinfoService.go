@@ -13,9 +13,9 @@ func All(ctx *gin.Context) ([]SystemModel.Baseinfo, error) {
 	if "" == param {
 		err = db.Engine.Find(&model)
 	} else {
-		param = `%` + param + `%`
 		err = db.Engine.Where("basename = ?", param).Find(&model)
 	}
+
 	return model, err
 
 }
