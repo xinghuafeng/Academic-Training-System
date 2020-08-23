@@ -4,7 +4,7 @@ package SystemModel
 	baseinfo 校區信息
 */
 type Baseinfo struct {
-	Id            int
+	Id            string
 	Baseid        string
 	Basename      string
 	Code          string
