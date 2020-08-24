@@ -1,4 +1,4 @@
-module sauth
+module Academic-Training-System
 
 go 1.13
 

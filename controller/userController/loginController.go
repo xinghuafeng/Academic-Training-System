@@ -1,13 +1,13 @@
 package userController
 
 import (
+	"Academic-Training-System/service/userService"
 	"github.com/gin-gonic/gin"
-	"sauth/service/userService"
 )
 
 const (
 	LoginURI     = "/auth/api/v1/user/login"
-	LoginAddress = "http://127.0.0.1:8889/sauth/index.html"
+	LoginAddress = "http://127.0.0.1:8889/Academic-Training-System/index.html"
 )
 
 /*
@@ -42,7 +42,7 @@ func Authenticate() gin.HandlerFunc {
 			return
 		}
 		count, err := userService.AuthVerify(ctx) // 访问权限验证
-		if "0" == count { // 认证失败
+		if "0" == count {                         // 认证失败
 			ctx.JSON(200, gin.H{
 				"code":    "F_AuthVerify_01",
 				"message": "用户权限认证失败",

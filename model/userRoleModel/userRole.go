@@ -1,20 +1,20 @@
 package userRoleModel
 
 import (
+	"Academic-Training-System/model/roleModel"
 	"time"
-	"sauth/model/roleModel"
 )
 
 // 用户-角色
 type UserRole struct {
-	Uuid       string                     // 主键
-	UserId     string                     // 用户 ID
-	RoleId     string                     // 角色 ID
-	AppId      string                     // 应用 ID
+	Uuid       string    // 主键
+	UserId     string    // 用户 ID
+	RoleId     string    // 角色 ID
+	AppId      string    // 应用 ID
 	CreateTime time.Time `xorm:"created"` // 创建时间
-	CreateUser string                     // 创建者
+	CreateUser string    // 创建者
 	UpdateTime time.Time `xorm:"updated"` // 修改时间
-	UpdateUser string                     // 修改者
+	UpdateUser string    // 修改者
 }
 
 type PostData struct {

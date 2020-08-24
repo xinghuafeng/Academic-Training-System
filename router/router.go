@@ -1,15 +1,16 @@
 package router
 
 import (
+	"Academic-Training-System/controller"
+	"Academic-Training-System/controller/appController"
+	"Academic-Training-System/controller/functionController"
+	"Academic-Training-System/controller/orgController"
+	"Academic-Training-System/controller/roleController"
+	"Academic-Training-System/controller/roleFunctionController"
+	"Academic-Training-System/controller/userController"
+	"Academic-Training-System/controller/userRoleController"
+
 	"github.com/gin-gonic/gin"
-	"sauth/controller"
-	"sauth/controller/appController"
-	"sauth/controller/userController"
-	"sauth/controller/roleController"
-	"sauth/controller/functionController"
-	"sauth/controller/roleFunctionController"
-	"sauth/controller/orgController"
-	"sauth/controller/userRoleController"
 )
 
 /*
@@ -17,8 +18,16 @@ import (
 */
 func Router(engine *gin.Engine) {
 
-	v1 := engine.Group("auth/api/v1") // 路由分组
+	v1 := engine.Group("Academic/api/v1") // 路由分组
 	{
+		//系统设置-校区管理
+		v1.GET("baseinfo/getbaseinfo", controller.Baseinfo)
+		v1.POST("baseinfo/delete", controller.DeleteBaseinfo)
+		v1.POST("baseinfo/Insertorupdatebaseinfo", controller.UpdateOrInsertBaseinfo)
+		//系统设置-销售来源
+
+		//系统设置-时间段管理
+
 		// ping
 		v1.GET("/ping", controller.Ping)
 

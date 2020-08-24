@@ -1,7 +1,7 @@
 package appModel
 
 import (
-	"sauth/db"
+	"Academic-Training-System/db"
 	"database/sql"
 )
 

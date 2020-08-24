@@ -1,9 +1,9 @@
 package db
 
 import (
-	"github.com/go-redis/redis"
+	"Academic-Training-System/util"
 	"github.com/astaxie/beego/logs"
-	"sauth/util"
+	"github.com/go-redis/redis"
 )
 
 var RedisClient *redis.Client

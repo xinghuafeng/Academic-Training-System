@@ -1,8 +1,8 @@
 package userRoleController
 
 import (
+	"Academic-Training-System/service/userRoleService"
 	"github.com/gin-gonic/gin"
-	"sauth/service/userRoleService"
 )
 
 func Find(ctx *gin.Context) {

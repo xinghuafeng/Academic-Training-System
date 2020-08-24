@@ -1,8 +1,8 @@
 package functionController
 
 import (
+	"Academic-Training-System/service/functionService"
 	"github.com/gin-gonic/gin"
-	"sauth/service/functionService"
 )
 
 func All(ctx *gin.Context) {

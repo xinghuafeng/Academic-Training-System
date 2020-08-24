@@ -1,10 +1,10 @@
 package userRoleService
 
 import (
+	"Academic-Training-System/db"
+	"Academic-Training-System/model/userRoleModel"
+	"Academic-Training-System/util"
 	"github.com/gin-gonic/gin"
-	"sauth/model/userRoleModel"
-	"sauth/db"
-	"sauth/util"
 )
 
 func Find(ctx *gin.Context) ([]map[string]interface{}, error) {

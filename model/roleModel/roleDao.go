@@ -1,8 +1,8 @@
 package roleModel
 
 import (
+	"Academic-Training-System/db"
 	"database/sql"
-	"sauth/db"
 )
 
 func Delete(uuid string) (sql.Result, error) {

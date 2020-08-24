@@ -1,8 +1,8 @@
 package appController
 
 import (
+	"Academic-Training-System/service/appService"
 	"github.com/gin-gonic/gin"
-	"sauth/service/appService"
 )
 
 func All(ctx *gin.Context) {

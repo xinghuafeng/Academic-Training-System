@@ -1,8 +1,8 @@
 package orgController
 
 import (
+	"Academic-Training-System/service/orgService"
 	"github.com/gin-gonic/gin"
-	"sauth/service/orgService"
 )
 
 func Find(ctx *gin.Context) {

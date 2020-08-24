@@ -1,8 +1,8 @@
 package userController
 
 import (
+	"Academic-Training-System/service/userService"
 	"github.com/gin-gonic/gin"
-	"sauth/service/userService"
 )
 
 func Delete(ctx *gin.Context) {

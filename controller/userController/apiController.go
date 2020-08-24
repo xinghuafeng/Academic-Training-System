@@ -1,8 +1,8 @@
 package userController
 
 import (
+	"Academic-Training-System/util"
 	"github.com/gin-gonic/gin"
-	"sauth/util"
 )
 
 func GetOwnInfo(ctx *gin.Context) {
