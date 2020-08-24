@@ -43,3 +43,19 @@ func DeleteBaseinfo(ctx *gin.Context) {
 	}
 
 }
+func UpdateOrInsertBaseinfo(ctx *gin.Context) {
+	_, err := systemService.InsertOrUpdateBaseInfo(ctx)
+	if err == nil {
+		ctx.JSON(200, serializer.Response{
+			Code:  1,
+			Msg:   "校区更新成功",
+			Error: "",
+		})
+	} else {
+		ctx.JSON(200, serializer.Response{
+			Code:  0,
+			Msg:   "校区更新失败",
+			Error: err.Error(),
+		})
+	}
+}

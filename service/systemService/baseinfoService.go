@@ -34,3 +34,23 @@ func DeleteBaseinfo(ctx *gin.Context) (sql.Result, error) {
 	res, err := SystemModel.DeleteBaseinfo(model.Id)
 	return res, err
 }
+
+// 保存校区或者修改校区
+func InsertOrUpdateBaseInfo(ctx *gin.Context) (int64, error) {
+	var model SystemModel.Baseinfo
+	var res int64
+	var err error
+	err = ctx.Bind(&model)
+	if nil != err {
+		return -1, err
+	}
+
+	if "" != model.Id { // update
+
+		res, err = db.Engine.Update(&model, &SystemModel.Baseinfo{Id: model.Id})
+
+	} else { // insert
+		res, err = db.Engine.Insert(&model)
+	}
+	return res, err
+}
