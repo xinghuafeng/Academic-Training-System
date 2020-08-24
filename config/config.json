@@ -1,6 +1,6 @@
 {
   "driverName": "mysql",
-  "dataSourceName": "root:dhy123456!@tcp(127.0.0.1:3306)/Academic-Training?charset=utf8",
+  "dataSourceName": "root:123456@tcp(127.0.0.1:3306)/tjauth?charset=utf8",
   "redisConnectAddress": "127.0.0.1:6379",
   "redisConnectPassword": ""
 }
