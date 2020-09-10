@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="651e9788-641e-45f2-9344-7cda9033680a" name="Default Changelist" comment="测试测试测试测试">
+      <change afterPath="$PROJECT_DIR$/controller/sourceSalesController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/SystemModel/sourceDao.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/SystemModel/sourceSale.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/systemService/sourceSalesService.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/router.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/router/router.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="25" column="51" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="51" />
+              <folding>
+                <element signature="e#16#486#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/sourceSalesController.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/systemService/sourceSalesService.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+              <folding>
+                <element signature="e#23#165#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service/systemService/baseinfoService.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+              <folding>
+                <element signature="e#23#165#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>127.0.0.1:6379</find>
+      <find>127.0.0.1</find>
+      <find>6379</find>
+    </findStrings>
+  </component>
+  <component name="GOROOT" path="D:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/config/config.json" />
+        <option value="$PROJECT_DIR$/model/SystemModel/sourceSale.go" />
+        <option value="$PROJECT_DIR$/model/SystemModel/sourceDao.go" />
+        <option value="$PROJECT_DIR$/router/router.go" />
+        <option value="$PROJECT_DIR$/controller/sourceSalesController.go" />
+        <option value="$PROJECT_DIR$/service/systemService/sourceSalesService.go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-76" />
+    <option name="y" value="258" />
+    <option name="width" value="1296" />
+    <option name="height" value="1028" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Academic-Training-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Academic-Training-System" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Academic-Training-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Academic-Training-System" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Academic-Training-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Academic-Training-System" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Academic-Training-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Academic-Training-System" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Academic-Training-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Academic-Training-System" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="roleFunctionModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Academic-Training-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Academic-Training-System" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="roleModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Academic-Training-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Academic-Training-System" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="SystemModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Academic-Training-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Academic-Training-System" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Academic-Training-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Academic-Training-System" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Academic-Training-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Academic-Training-System" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="systemService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Academic-Training-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599745773830" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="F:/logistics-back-master" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Academic-Training-System" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="651e9788-641e-45f2-9344-7cda9033680a" name="Default Changelist" comment="" />
+      <created>1597933321406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597933321406</updated>
+      <workItem from="1597933323256" duration="16681000" />
+      <workItem from="1599745448252" duration="306000" />
+    </task>
+    <task id="LOCAL-00001" summary="测试测试测试测试">
+      <created>1597933406593</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597933406594</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16987000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16613077" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33635333" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34314835" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3295583" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3295583" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="测试测试测试测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试测试测试测试" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>https://goproxy.cn</proxy>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/222">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/appService/apiService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/userService/userService.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/appController/apiController.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#23#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/appController/appController.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-412">
+          <folding>
+            <element signature="e#23#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/functionController/functionController.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/pingController.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serializer/common.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/baseinfoController.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="19" lean-forward="true" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/gin-gonic/gin@v1.5.0/auth.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/roleModel/role.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/roleFunctionModel/roleFunction.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/go/pkg/mod/github.com/gin-gonic/gin@v1.5.0/tree.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="249" selection-start-line="249" selection-end-line="249" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/SystemModel/sourceSale.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/SystemModel/sourceDao.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#21#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/SystemModel/baseinfoDao.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" selection-start-line="7" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/SystemModel/baseinfo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="51" />
+          <folding>
+            <element signature="e#16#486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/sourceSalesController.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/systemService/sourceSalesService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding>
+            <element signature="e#23#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/systemService/baseinfoService.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="e#23#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

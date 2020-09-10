@@ -20,6 +20,11 @@ func Router(engine *gin.Engine) {
 
 	v1 := engine.Group("Academic/api/v1") // 路由分组
 	{
+		//系统设置-销售来源
+		v1.GET("baseinfo/getSourceSales", controller.GetSourceSales)
+		v1.POST("baseinfo/deleteSourceSales", controller.DeleteSourceSales)
+		v1.POST("baseinfo/insertorupdateSourceSales", controller.UpdateOrInsertSourceSales)
+
 		//系统设置-校区管理
 		v1.GET("baseinfo/getbaseinfo", controller.Baseinfo)
 		v1.POST("baseinfo/delete", controller.DeleteBaseinfo)
