@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="651e9788-641e-45f2-9344-7cda9033680a" name="Default Changelist" comment="测试测试测试测试">
-      <change afterPath="$PROJECT_DIR$/controller/sourceSalesController.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/SystemModel/sourceDao.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/SystemModel/sourceSale.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/systemService/sourceSalesService.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/router.go" afterDir="false" />
+    <list default="true" id="651e9788-641e-45f2-9344-7cda9033680a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +186,7 @@
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599745773830" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599868013910" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
@@ -240,7 +235,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597933321406</updated>
       <workItem from="1597933323256" duration="16681000" />
-      <workItem from="1599745448252" duration="306000" />
+      <workItem from="1599745448252" duration="1119000" />
     </task>
     <task id="LOCAL-00001" summary="测试测试测试测试">
       <created>1597933406593</created>
@@ -249,15 +244,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597933406594</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="测试测试测试测试">
+      <created>1599745915826</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599745915826</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16987000" />
+    <option name="totallyTimeSpent" value="17800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16613077" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
